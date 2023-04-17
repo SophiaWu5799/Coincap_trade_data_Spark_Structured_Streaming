@@ -1,5 +1,8 @@
 # Real-time Cryptocurrency Analytics with Spark Structured Streaming 
 ## Project Original Thoughts:
+Have you been confused by the volatility of the cryptocurrency market and struggled to make sense of its rapid price fluctuations? With the increasing popularity of Bitcoin and Ethereum, more people are becoming interested in trading these digital assets, but it can be difficult to know when to buy or sell.
+
+This is where our project, Spark Structured Streaming for Coincrpty, comes in. By using real-time data from CoinCap API via websockets, we are able to stream the latest trading information for Bitcoin and Ethereum and process it using Spark structured streaming in order to create a dashboard that visualizes the data in an easily digestible format. This project aims to help traders and investors make informed decisions by providing them with up-to-date information on market trends and price movements.
   
 ## Project Overview
 For this data engineering project, I will be working with a live streaming dataset obtained from the CoinCap API using websockets. The goal of this project is to build a real-time data pipeline using Apache Spark's Structured Streaming module, which will process and analyze the incoming data, and store the results in a MySQL database. Additionally, we will be using Tableau to create a dashboard that displays the processed data in an easily digestible format.
@@ -30,6 +33,14 @@ The project can be broken down into the following components:
 ## Project Benefits:
 
 This project will demonstrate a real-world data engineering pipeline for processing and analyzing live streaming data. By working with the CoinCap API, we will be able to build a pipeline that can handle large volumes of data in real-time. Additionally, by using Spark Structured Streaming, we can leverage the power of Apache Spark to perform complex calculations on the incoming data, and store the results in a MySQL database. Finally, by using Tableau to visualize the processed data, we can gain insights into the trends and patterns in the data, which can be used to inform trading decisions.
+
+## Conclusion:
+
+In conclusion, the Spark Structured Streaming for CoinCrpty project is a great example of a data engineering project that uses real-time data to provide insights and analysis for cryptocurrency trading. By utilizing the CoinCap API and Apache Spark's Structured Streaming, we were able to process and analyze large volumes of streaming data, and store the results in MySQL for further analysis and visualization using Tableau.
+
+This project has the potential to benefit both individual traders and businesses involved in cryptocurrency trading by providing them with real-time insights into market trends and fluctuations. Furthermore, this project can serve as a starting point for those interested in exploring data engineering and real-time data processing using Spark and other related tools.
+
+Overall, this project showcases the power and potential of data engineering and real-time data processing in the cryptocurrency market, and serves as a valuable resource for anyone looking to gain insights and make informed decisions in this rapidly evolving industry.
 
 
 
